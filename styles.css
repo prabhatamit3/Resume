@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f9;
@@ -7,8 +6,18 @@ body {
     padding: 0;
 }
 
+.navbar {
+    margin-bottom: 20px;
+}
+
 .container {
-    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.containerheader{
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -47,9 +56,107 @@ ul {
 
 ul li {
     margin-bottom: 5px;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #e0f7fa;
 }
 
 h3 {
     margin-top: 20px;
     color: #0073e6;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.certificate-details {
+    display: none;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.certificate-item:hover .certificate-details {
+    display: block;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0073e6 !important;
+    background-color: #fff !important;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+}
+.bg-image {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid white;
+}
+
+header h1 {
+    font-size: 3em;
+    color: white;
+}
+
+header p.lead {
+    font-size: 1.5em;
+    color: #090909;
+}
+
+header p.text-white {
+    font-size: 1.2em;
+    color: #090909;
+}
+
+header a.text-decoration-none {
+    text-decoration: none;
+}
+
+header a.text-white {
+    color: #090909;
+}
+
+header a.btn {
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header a.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+header a.btn-dark {
+    background-color: #343a40;
+    border: none;
 }
