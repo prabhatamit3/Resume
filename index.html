@@ -4,98 +4,497 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amit Prabhat - Resume</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Amit Prabhat</h1>
-            <p>AI/ML Computational Science Analyst @ Accenture</p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Amit Prabhat</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="whoisamit.html">Who is Amit</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="containerheader mt-5 pt-5">
+        <!-- <header class="text-center">
+            <h1 class="display-4">Amit Prabhat</h1>
+            <p class="lead">AI/ML Computational Science Analyst @ Accenture</p>
             <p>5X Microsoft Certified | MERN | .Net | Azure PaaS</p>
             <p>Bengaluru, Karnataka 560035</p>
             <p>6201103925 | <a href="mailto:prabhatamit3@gmail.com">prabhatamit3@gmail.com</a></p>
             <p><a href="https://linkedin.com/in/amit-prabhat-dev/">LinkedIn</a> | <a href="https://github.com/prabhatamit3">GitHub</a></p>
+        </header> -->
+        <header class="text-center bg-image py-5">
+            <img src="profile photo.png" alt="Photo of Amit Prabhat" class="profile-photo">
+            <h1 class="display-3 text-white">Amit Prabhat</h1>
+            <p class="lead text-white">AI/ML Computational Science Analyst @ Accenture</p>
+            <p class="text-white">5X Microsoft Certified |Azure AI Services | LLMs </p><p class="text-white"> Python.Net | Azure PaaS |  | 3rd Rank Data AI Hackathon</p>
+            <p class="text-white">Bengaluru, Karnataka 560035</p>
+            <p class="text-white">6201103925 | <a href="mailto:prabhatamit3@gmail.com" class="text-decoration-none text-white">prabhatamit3@gmail.com</a></p>
+            <p>
+                <a href="https://linkedin.com/in/amit-prabhat-dev/" class="btn btn-primary mx-2">LinkedIn</a>
+                <a href="https://github.com/prabhatamit3" class="btn btn-dark mx-2">GitHub</a>
+            </p>
         </header>
+    </div>
+    <div class="container mt-5 pt-5">
+        
+        
         <section>
-            <h2>Education</h2>
+            <h2 class="text-primary">Education</h2>
             <p><strong>S J B Institute of Technology (VTU)</strong> - Bachelor of Engineering - ECE</p>
             <p>Aug. 2017 – Jul 2021 | CGPA: 7.56</p>
         </section>
         <section>
-            <h2>Technical Skills</h2>
+            <h2 class="text-primary">Technical Skills</h2>
             <p><strong>Tools and Languages:</strong> Python, .Net, Java, React, NodeJS, HTML, CSS, C#</p>
             <p><strong>Developer Tools:</strong> VS Code, Visual Studio, Power Virtual Agent, Power Automate, Git, Postman</p>
             <p><strong>Technologies/Frameworks:</strong> Azure PaaS, AI Services, LLMs, ASP.NET, GitHub, Flask, OpenAI, LangChain</p>
         </section>
         <section>
-            <h2>Certifications</h2>
-            <ul>
-                <li>Azure Fundamentals</li>
-                <li>Azure AI Engineer Associate</li>
-                <li>Career Essentials in Generative AI by Microsoft and LinkedIn</li>
-                <li>Twilio Programmable Messaging and Voice Professional</li>
-                <li>Microsoft Certified: Azure AI Fundamentals</li>
-                <li>.Net Tech Expressway Program</li>
-                <li>Microsoft Certified: Power Platform Fundamentals</li>
-                <li>Basics of Data Science in Python</li>
+            <h2 class="text-primary">Certifications</h2>
+            <ul class="list-group">
+                <li class="list-group-item certificate-item">
+                    Microsoft Certified: Azure Fundamentals
+                    <div class="certificate-details">
+                        <p>Azure Fundamentals</p>
+                        <p>Microsoft</p>
+                        <p>Issued Nov 2024</p>
+                        <p>Credential ID EB069F9D96C1759E</p>
+                        <p>Skills: Azure Functions · Azure paas · Artificial Intelligence (AI) · Azure Open AI · ChatGPT · Azure Cosmos DB · .NET Core · Generative AI · Azure SQL · GPT4 · Chatbot Development · Azure Al Services</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Microsoft Certified: Azure AI Engineer Associate
+                    <div class="certificate-details">
+                        <p>Azure AI Engineer Associate</p>
+                        <p>Microsoft</p>
+                        <p>Issued Sep 2024 · Expires Sep 2025</p>
+                        <p>Credential ID 4839A2058C7BA9EC</p>
+                        <p>Skills: Azure Functions · Azure Open AI · Large Language Models (LLM) · Llm · Azure Cosmos DB · Microsoft Azure · Azure Al Services</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Career Essentials in Generative AI by Microsoft and LinkedIn
+                    <div class="certificate-details">
+                        <p>Career Essentials in Generative AI by Microsoft and LinkedIn</p>
+                        <p>Microsoft</p>
+                        <p>Issued Nov 2023</p>
+                        <p>Skills: LangChain · Computer Ethics · Artificial Intelligence (AI) · Large Language Models (LLM) · Generative AI</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Twilio Programmable Messaging and Voice Professional Certificate
+                    <div class="certificate-details">
+                        <p>Twilio Programmable Messaging and Voice Professional Certificate</p>
+                        <p>Twilio</p>
+                        <p>Issued Nov 2023</p>
+                        <p>Skills: Voice over IP (VoIP) · Messaging Architecture · Speech Recognition · Twilio</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Microsoft Certified: Azure AI Fundamentals
+                    <div class="certificate-details">
+                        <p>Azure AI Fundamentals</p>
+                        <p>Microsoft</p>
+                        <p>Issued Jun 2023</p>
+                        <p>Credential ID 759968F798FD8213</p>
+                        <p>Skills: Azure paas · Speech Recognition · Speech Processing · Hugging face · Azure Al Services</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Azure Cloud Foundation
+                    <div class="certificate-details">
+                        <p>Azure Cloud Foundation</p>
+                        <p>Accenture</p>
+                        <p>Issued Apr 2022</p>
+                        <p>Skills: C# · Microsoft Azure · Web Development</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Microsoft Certified: Power Platform Fundamentals
+                    <div class="certificate-details">
+                        <p>Power Platform Fundamentals</p>
+                        <p>Microsoft</p>
+                        <p>Issued Jan 2022</p>
+                        <p>Skills: Azure paas</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Basics of Data Science in Python
+                    <div class="certificate-details">
+                        <p>Basics of Data Science in Python</p>
+                        <p>Tata Steel</p>
+                        <p>Issued Aug 2019</p>
+                        <p>Skills: Data Science · Python (Programming Language) · Azure Al Services</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Stock Prediction Using Regression Model
+                    <div class="certificate-details">
+                        <p>Stock Prediction Using Regression Model</p>
+                        <p>Tata Steel</p>
+                        <p>Issued Aug 2019</p>
+                        <p>Skills: Artificial Intelligence (AI) · Machine Learning · Python (Programming Language) · Azure Al Services · Software Development · Web Development</p>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">
+                    Coal Pilferage Detection Through Image Analytics
+                    <div class="certificate-details">
+                        <p>Coal Pilferage Detection Through Image Analytics</p>
+                        <p>Tata Steel</p>
+                        <p>Issued Jul 2019</p>
+                        <p>Skills: Skill Development · Analytical Skills · SQL · Computer Science · Machine Learning · Python (Programming Language) · Microsoft Azure · Computer Vision · Adobe Photoshop · Data Analysis</p>
+                    </div>
+                </li>
             </ul>
         </section>
-        <section>
-            <h2>Experience</h2>
-            <h3>Accenture</h3>
-            <p><strong>Application Development Analyst</strong> | Aug 2022 – Present | Bengaluru, Karnataka</p>
-            <ul>
-                <li>Developed a Python-based pipeline, integrating Azure Cognitive Search with Azure OpenAI.</li>
-                <li>Developed MS Bot Proxy for Nuance Mix, enabling the utilization of Nuance Mix dialogs in MS Bot using the DLG API.</li>
-                <li>Designed and implemented an innovative Azure Communication Service Utility, integrating SMS functionality with the Bot Framework SDK.</li>
-                <li>Integrated Azure Cognitive Vector Search and Azure OpenAI, and coordinated the integration of MS Bot with AudioCodes, Nuance Gatekeeper, and Azure OpenAI.</li>
-            </ul>
-            <p><strong>Application Development Associate</strong> | Aug 2021 – Aug 2022 | Bengaluru, Karnataka</p>
-            <ul>
-                <li>Developed and unit tested a .Net Core Web API for user verification within a Banking chatbot.</li>
-                <li>Integrated robust security specifications and API integrations, ensuring seamless deployment and operation on Azure PaaS Services and Azure DevOps for CI/CD.</li>
-                <li>Developed a highly efficient Banking chatbot using Microsoft Bot SDK, capable of handling 92 distinct banking operations.</li>
-            </ul>
-            <h3>Dlithe</h3>
-            <p><strong>Intern</strong> | Mar 2021 – Apr 2021 | Bengaluru, Karnataka</p>
-            <ul>
-                <li>Demonstrated proficiency in coding exercises related to network security, vulnerable testing, and exploiting Linux machines, following OWASP guidelines.</li>
-                <li>Acquired hands-on experience in Ethical Hacking and Network Security with DLithe development team.</li>
-                <li>Gained valuable domain knowledge and hands-on experience in agile development processes while effectively utilizing GitHub as a collaborative development tool.</li>
-                <li>Acknowledged for exemplary coding prowess and adeptness in critical thinking for designing innovative solutions.</li>
-            </ul>
-            <h3>TATA Steel</h3>
-            <p><strong>Summer Intern</strong> | Jul 2019 – Aug 2019 | Jamshedpur, Jharkhand</p>
-            <ul>
-                <li>Gained hands-on experience in predicting stock prices using machine learning techniques, specifically regression models, while collaborating with industry professionals.</li>
-                <li>Utilized advanced algorithms and statistical methods, including linear regression and time series analysis, to scrutinize stock market data and produce precise forecasts.</li>
-                <li>Showcased expertise in data science by effectively communicating intricate concepts and contributing to project success through the use of Python and Azure AI Services.</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Achievements / Extracurricular</h2>
-            <ul>
-                <li><strong>Sparkling Star Award</strong> | May 2022 | Recognized for outstanding quarterly performance at Accenture.</li>
-                <li><strong>Client Value Creation Award</strong> | Jun 2022 | Played a pivotal role in project delivery, leading to significant client value creation at Accenture.</li>
-                <li><strong>Sparkling Star Award</strong> | Aug 2022 | Recognized for outstanding quarterly performance at Accenture.</li>
-                <li><strong>Microsoft Data AI Hackathon</strong> | Jun 2023 | Secured Third place in a competitive hackathon organized by Accenture and Microsoft.</li>
-                <li><strong>Ace Award</strong> | Jun 2023 | Recognized for remarkable performance, signifying a high level of achievement at Accenture.</li>
-                <li><strong>CloudFare Award</strong> | Aug 2023 | Received the highly prestigious CloudFare Award for expertise in cloud-based technologies at Accenture.</li>
-            </ul>
-            <h3>Technical Committee SJBIT</h3>
-            <p><strong>Program Coordinator</strong> | Aug 2018 – Jul 2021 | VTU</p>
-            <ul>
-                <li>Successfully coordinated several technical fests, further demonstrating strong coordination and management skills.</li>
-                <li>Founded the “Turing Club”, a prominent tech-focused society, significantly elevating the tech culture within the institution.</li>
-            </ul>
-            <h3>IEEE</h3>
-            <p><strong>Member</strong> | Jun 2018 – Aug 2020 | VTU</p>
-            <ul>
-                <li>Served as a member of the Institute of Electrical and Electronics Engineers (IEEE) for a duration of 2 years and 1 month.</li>
-                <li>Coordinated several events and technical seminars, showcasing strong organizational and leadership skills.</li>
-            </ul>
-        </section>
-    </div>
+        
+            <h2 class="text-primary">Certifications</h2>
+            <ul class="list-group"> 
+                <li class="list-group-item certificate-item"> Microsoft Certified: Azure Fundamentals 
+                    <div class="certificate-details"> <p>Azure Fundamentals</p> 
+                        <p>Microsoft</p> <p>Issued Nov 2024</p> <p>Credential ID EB069F9D96C1759E</p> <p>Skills: Azure Functions · Azure paas · Artificial Intelligence (AI) · Azure Open AI · ChatGPT · Azure Cosmos DB · .NET Core · Generative AI · Azure SQL · GPT4 · Chatbot Development · Azure Al Services</p> 
+                    </div>
+                </li>
+            <!-- <h2 class="text-primary">Certifications</h2>
+            <ul class="list-group"> -->
+                <li class="list-group-item certificate-item">Azure Fundamentals <div class="certificate-details"> <div class="display-flex flex-wrap align-items-center full-height"> <div class="display-flex"> <div class="display-flex full-width"> <div class="display-flex align-items-center mr1 hoverable-link-text t-bold"> <span aria-hidden="true">Microsoft Certified: Azure Fundamentals</span> <span class="visually-hidden">Microsoft Certified: Azure Fundamentals</span> </div> </div> </div> </div> <span class="t-14 t-normal">Microsoft</span> <span class="t-14 t-normal t-black--light">Issued Nov 2024</span> <span class="t-14 t-normal t-black--light">Credential ID EB069F9D96C1759E</span> <span class="t-14 t-normal t-black--light">Skills: Azure Functions · Azure paas · Artificial Intelligence (AI) · Azure Open AI · ChatGPT · Azure Cosmos DB · .NET Core · Generative AI · Azure SQL · GPT4 · Chatbot Development · Azure Al Services</span>
+                 </div> 
+                </li>
+                <li class="list-group-item certificate-item">Azure Fundamentals
+                    <div class="certificate-details">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E" target="_self">
+                            <div class="display-flex flex-wrap align-items-center full-height">
+                                <div class="display-flex">
+                                    <div class="display-flex full-width">
+                                        <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                            <span aria-hidden="true">Microsoft Certified: Azure Fundamentals</span>
+                                            <span class="visually-hidden">Microsoft Certified: Azure Fundamentals</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="t-14 t-normal">Microsoft</span>
+                            <span class="t-14 t-normal t-black--light">Issued Nov 2024</span>
+                            <span class="t-14 t-normal t-black--light">Credential ID EB069F9D96C1759E</span>
+                        </a>
+                        <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E">
+                            <span class="pvs-navigation__text">Show credential</span>
+                            <div class="pvs-navigation__icon">
+                                <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                    <use href="#link-external-small" width="16" height="16"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">Azure AI Engineer Associate
+                    <div class="certificate-details">
+                        <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/4839A2058C7BA9EC?sharingId=EF10C66109DD4E2E" target="_self">
+                            <div class="display-flex flex-wrap align-items-center full-height">
+                                <div class="display-flex">
+                                    <div class="display-flex full-width">
+                                        <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                            <span aria-hidden="true">Microsoft Certified: Azure AI Engineer Associate</span>
+                                            <span class="visually-hidden">Microsoft Certified: Azure AI Engineer Associate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="t-14 t-normal">Microsoft</span>
+                            <span class="t-14 t-normal t-black--light">Issued Sep 2024 · Expires Sep 2025</span>
+                            <span class="t-14 t-normal t-black--light">Credential ID 4839A2058C7BA9EC</span>
+                        </a>
+                        <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/4839A2058C7BA9EC?sharingId=EF10C66109DD4E2E">
+                            <span class="pvs-navigation__text">Show credential</span>
+                            <div class="pvs-navigation__icon">
+                                <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                    <use href="#link-external-small" width="16" height="16"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </li>
+                <li class="list-group-item certificate-item">Career Essentials in Generative AI by Microsoft and LinkedIn
+                    <div class="certificate-details">                <li class="list-group-item certificate-item">Career Essentials in Generative AI by Microsoft and LinkedIn
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EF10C66109DD4E2E?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Career Essentials in Generative AI by Microsoft and LinkedIn</span>
+                                                <span class="visually-hidden">Career Essentials in Generative AI by Microsoft and LinkedIn</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Microsoft</span>
+                                <span class="t-14 t-normal t-black--light">Issued Nov 2023</span>
+                            </a>
+                            <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EF10C66109DD4E2E?sharingId=EF10C66109DD4E2E">
+                                <span class="pvs-navigation__text">Show credential</span>
+                                <div class="pvs-navigation__icon">
+                                    <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                        <use href="#link-external-small" width="16" height="16"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-group-item certificate-item">Twilio Programmable Messaging and Voice Professional Certificate
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EF10C66109DD4E2E?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Twilio Programmable Messaging and Voice Professional Certificate</span>
+                                                <span class="visually-hidden">Twilio Programmable Messaging and Voice Professional Certificate</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Twilio</span>
+                                <span class="t-14 t-normal t-black--light">Issued Nov 2023</span>
+                            </a>
+                            <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EF10C66109DD4E2E?sharingId=EF10C66109DD4E2E">
+                                <span class="pvs-navigation__text">Show credential</span>
+                                <div class="pvs-navigation__icon">
+                                    <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                        <use href="#link-external-small" width="16" height="16"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-group-item certificate-item">Azure AI Fundamentals
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/759968F798FD8213?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Microsoft Certified: Azure AI Fundamentals</span>
+                                                <span class="visually-hidden">Microsoft Certified: Azure AI Fundamentals</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Microsoft</span>
+                                <span class="t-14 t-normal t-black--light">Issued Jun 2023</span>
+                                <span class="t-14 t-normal t-black--light">Credential ID 759968F798FD8213</span>
+                            </a>
+                            <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/759968F798FD8213?sharingId=EF10C66109DD4E2E">
+                                <span class="pvs-navigation__text">Show credential</span>
+                                <div class="pvs-navigation__icon">
+                                    <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                        <use href="#link-external-small" width="16" height="16"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-group-item certificate-item">Azure Cloud Foundation
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EF10C66109DD4E2E?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Azure Cloud Foundation</span>
+                                                <span class="visually-hidden">Azure Cloud Foundation</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Accenture</span>
+                                <span class="t-14 t-normal t-black--light">Issued Apr 2022</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-group-item certificate-item">Power Platform Fundamentals
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Microsoft Certified: Power Platform Fundamentals</span>
+                                                <span class="visually-hidden">Microsoft Certified: Power Platform Fundamentals</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Microsoft</span>
+                                <span class="t-14 t-normal t-black--light">Issued Jan 2022</span>
+                            </a>
+                            <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E">
+                                <span class="pvs-navigation__text">Show credential</span>
+                                <div class="pvs-navigation__icon">
+                                    <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                        <use href="#link-external-small" width="16" height="16"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-group-item certificate-item">Basics of Data Science in Python
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Basics of Data Science in Python</span>
+                                                <span class="visually-hidden">Basics of Data Science in Python</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Tata Steel</span>
+                                <span class="t-14 t-normal t-black--light">Issued Aug 2019</span>
+                            </a>
+                            <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E">
+                                <span class="pvs-navigation__text">Show credential</span>
+                                <div class="pvs-navigation__icon">
+                                    <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                        <use href="#link-external-small" width="16" height="16"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-group-item certificate-item">Stock Prediction Using Regression Model
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Stock Prediction Using Regression Model</span>
+                                                <span class="visually-hidden">Stock Prediction Using Regression Model</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Tata Steel</span>
+                                <span class="t-14 t-normal t-black--light">Issued Aug 2019</span>
+                            </a>
+                            <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E">
+                                <span class="pvs-navigation__text">Show credential</span>
+                                <div class="pvs-navigation__icon">
+                                    <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                        <use href="#link-external-small" width="16" height="16"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="list-group-item certificate-item">Coal Pilferage Detection Through Image Analytics
+                        <div class="certificate-details">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E" target="_self">
+                                <div class="display-flex flex-wrap align-items-center full-height">
+                                    <div class="display-flex">
+                                        <div class="display-flex full-width">
+                                            <div class="display-flex align-items-center mr1 hoverable-link-text t-bold">
+                                                <span aria-hidden="true">Coal Pilferage Detection Through Image Analytics</span>
+                                                <span class="visually-hidden">Coal Pilferage Detection Through Image Analytics</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="t-14 t-normal">Tata Steel</span>
+                                <span class="t-14 t-normal t-black--light">Issued Jul 2019</span>
+                            </a>
+                            <a class="optional-action-target-wrapper artdeco-button artdeco-button--secondary artdeco-button--standard artdeco-button--2 artdeco-button--muted inline-flex justify-center align-self-flex-start button-placement-wrap" target="_self" href="https://learn.microsoft.com/api/credentials/share/en-us/PRABHATAMIT-7034/EB069F9D96C1759E?sharingId=EF10C66109DD4E2E">
+                                <span class="pvs-navigation__text">Show credential</span>
+                                <div class="pvs-navigation__icon">
+                                    <svg role="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" data-supported-dps="16x16">
+                                        <use href="#link-external-small" width="16" height="16"></use>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <section class="experience">
+                <h2 class="text-primary">Experience</h2>
+                <h3>Accenture</h3>
+                <p><strong>Application Development Analyst</strong> | Aug 2022 – Present | Bengaluru, Karnataka</p>
+                <ul class="list-group">
+                    <li class="list-group-item">Developed a Python-based pipeline, integrating Azure Cognitive Search with Azure OpenAI.</li>
+                    <li class="list-group-item">Developed MS Bot Proxy for Nuance Mix, enabling the utilization of Nuance Mix dialogs in MS Bot using the DLG API.</li>
+                    <li class="list-group-item">Designed and implemented an innovative Azure Communication Service Utility, integrating SMS functionality with the Bot Framework SDK.</li>
+                    <li class="list-group-item">Integrated Azure Cognitive Vector Search and Azure OpenAI, and coordinated the integration of MS Bot with AudioCodes, Nuance Gatekeeper, and Azure OpenAI.</li>
+                </ul>
+                <p><strong>Application Development Associate</strong> | Aug 2021 – Aug 2022 | Bengaluru, Karnataka</p>
+<ul class="list-group">
+    <li class="list-group-item">Developed and unit tested a .Net Core Web API for user verification within a Banking chatbot.</li>
+    <li class="list-group-item">Integrated robust security specifications and API integrations, ensuring seamless deployment and operation on Azure PaaS Services and Azure DevOps for CI/CD.</li>
+    <li class="list-group-item">Developed a highly efficient Banking chatbot using Microsoft Bot SDK, capable of handling 92 distinct banking operations.</li>
+</ul>
+<h3>Dlithe</h3>
+<p><strong>Intern</strong> | Mar 2021 – Apr 2021 | Bengaluru, Karnataka</p>
+<ul class="list-group">
+    <li class="list-group-item">Demonstrated proficiency in coding exercises related to network security, vulnerable testing, and exploiting Linux machines, following OWASP guidelines.</li>
+    <li class="list-group-item">Acquired hands-on experience in Ethical Hacking and Network Security with DLithe development team.</li>
+    <li class="list-group-item">Gained valuable domain knowledge and hands-on experience in agile development processes while effectively utilizing GitHub as a collaborative development tool.</li>
+    <li class="list-group-item">Acknowledged for exemplary coding prowess and adeptness in critical thinking for designing innovative solutions.</li>
+</ul>
+<h3>TATA Steel</h3>
+<p><strong>Summer Intern</strong> | Jul 2019 – Aug 2019 | Jamshedpur, Jharkhand</p>
+<ul class="list-group">
+    <li class="list-group-item">Gained hands-on experience in predicting stock prices using machine learning techniques, specifically regression models, while collaborating with industry professionals.</li>
+    <li class="list-group-item">Utilized advanced algorithms and statistical methods, including linear regression and time series analysis, to scrutinize stock market data and produce precise forecasts.</li>
+    <li class="list-group-item">Showcased expertise in data science by effectively communicating intricate concepts and contributing to project success through the use of Python and Azure AI Services.</li>
+</ul>
+</section>
+<section>
+    <h2 class="text-primary">Achievements / Extracurricular</h2>
+    <ul class="list-group">
+        <li class="list-group-item"><strong>Sparkling Star Award</strong> | May 2022 | Recognized for outstanding quarterly performance at Accenture.</li>
+        <li class="list-group-item"><strong>Client Value Creation Award</strong> | Jun 2022 | Played a pivotal role in project delivery, leading to significant client value creation at Accenture.</li>
+        <li class="list-group-item"><strong>Sparkling Star Award</strong> | Aug 2022 | Recognized for outstanding quarterly performance at Accenture.</li>
+        <li class="list-group-item"><strong>Microsoft Data AI Hackathon</strong> | Jun 2023 | Secured Third place in a competitive hackathon organized by Accenture and Microsoft.</li>
+        <li class="list-group-item"><strong>Ace Award</strong> | Jun 2023 | Recognized for remarkable performance, signifying a high level of achievement at Accenture.</li>
+        <li class="list-group-item"><strong>CloudFare Award</strong> | Aug 2023 | Received the highly prestigious CloudFare Award for expertise in cloud-based technologies at Accenture.</li>
+    </ul>
+    <h3>Technical Committee SJBIT</h3>
+    <p><strong>Program Coordinator</strong> | Aug 2018 – Jul 2021 | VTU</p>
+    <ul class="list-group">
+        <li class="list-group-item">Successfully coordinated several technical fests, further demonstrating strong coordination and management skills.</li>
+        <li class="list-group-item">Founded the “Turing Club”, a prominent tech-focused society, significantly elevating the tech culture within the institution.</li>
+    </ul>
+    <h3>IEEE</h3>
+    <p><strong>Member</strong> | Jun 2018 – Aug 2020 | VTU</p>
+    <ul class="list-group">
+        <li class="list-group-item">Served as a member of the Institute of Electrical and Electronics Engineers (IEEE) for a duration of 2 years and 1 month.</li>
+        <li class="list-group-item">Coordinated several events and technical seminars, showcasing strong organizational and leadership skills.</li>
+    </ul>
+</section>
+</div>
+<footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Amit Prabhat. All Rights Reserved.</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
