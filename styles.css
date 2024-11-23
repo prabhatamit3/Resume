@@ -129,12 +129,12 @@ header h1 {
 
 header p.lead {
     font-size: 1.5em;
-    color: #090909;
+    color: white;
 }
 
 header p.text-white {
     font-size: 1.2em;
-    color: #090909;
+    color: white;
 }
 
 header a.text-decoration-none {
@@ -142,7 +142,7 @@ header a.text-decoration-none {
 }
 
 header a.text-white {
-    color: #090909;
+    color: white;
 }
 
 header a.btn {
